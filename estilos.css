@@ -187,6 +187,37 @@ hr{
   grid-area: content;
 
 }
+.chips-warpper{
+  overflow-x: scroll;
+  max-width: calc(100vw - 240px);
+  
+  background-color: #181818;
+  display: flex;
+  padding-left: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.01);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.01);
+  
+  
+}
+.chips-warpper::-webkit-scrollbar{
+  height: 6px;
+}
+.chips-warpper::-webkit-scrollbar-thumb{
+  background: #717171;
+}
+.chips{
+  margin: 12px 6px;
+  background-color: #373737;
+  padding: 6px 12px;
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+  border-radius: 16px;
+}
+.chips:hover{
+  background-color: #d4d4d4;
+  transition: 0.3s;
+}
 h4{
   font-size: 0.9rem;
   text-transform: uppercase;
