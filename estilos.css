@@ -48,6 +48,7 @@ h1{
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
+  gap: 5px;
 }
 
 .logo-container{
@@ -316,4 +317,28 @@ p,a{
 }
 .upload{
   margin-left: 5px;
+}
+@media(max-width:1200px){
+  body{
+    grid-template-columns: 70px,1fr;
+  }
+  .sidebar-item span, .sidebar-items h4{
+    display: none;
+
+  }
+  .sidebar-items{
+    padding: 0;
+  }
+  .sidebar-item{
+    padding: 0 20px;
+  }
+  .chips-warpper{
+    width: calc(100vh - 70px);
+  }
+}
+@media(max-width:800px){
+  .search-container{
+    display: none;
+  }
+  
 }
