@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(variables.css);
+
 *{
   margin: 0;
   padding: 0;
@@ -17,6 +19,7 @@ body{
   'header header'
   'sidebar content';
 }
+
 img{
   position: absolute;
   top: 0;
@@ -29,16 +32,19 @@ img{
 a{
   text-decoration: none;
   font-size: 0.9rem;
-  color: white;
+  color: var(--color-logos-header);
 }
 
 h1{
   font-size: 1.5rem;
 }
 
+
+
+/* header */
 .header{
   grid-area: header;
-  background-color: #202020;
+  background-color: var(--color-contenedor-header);
   position: fixed;
   top: 0;
   left: 0;
@@ -48,7 +54,7 @@ h1{
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
-  gap: 5px;
+  gap: var(--espacio-entre-elementos);
 }
 
 .logo-container{
@@ -70,46 +76,45 @@ h1{
 }
 
 .logo h1{
-  letter-spacing: px;
-  color: white;
+  color: var(--color-texto-youtube);
 }
 
 
 .search-container{
   align-items: center;
   display: flex;
-  gap: 5px;
+  gap: var(--espacio-entre-elementos);
   width: 600px;
 }
 
 .search-container form{
+  display: flex;
   position: relative;
   width: 100%;
-  display: flex;
+  
 }
 
 .search-container input{
   height: 40px;
   width: 100%;
-  background-color: #121212;
-  color: #f2f2f2;
+  background-color: var(--color-barra-de-busqueda-header);
+  color: var(--color-texto-barra-de-busqueda-header);
   padding: 12px;
   outline: none;
-  border: 1px solid rgba(255, 255, 255, 0.01);
-  border-radius: 10px 0px 0px 10px;
+  border: var(--borde-barra-de-busqueda-header);
+  border-radius: var(--borde-radius-barra-de-busqueda-header);
 }
-
 
 .search-container button{
   width: 40px;
   min-width: 40px;
   height: 40px;
-  background-color: #313131;
-  color: white;
+  background-color: var(--color-fondo-logo-busqueda-header);
+  color: var(--color-del-logo-busqueda-header);
   outline: none;
   border: none;
   cursor: pointer;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: var(--borde-radius-del-logo-busqueda-header);
 }
 
 .search-container form ~ button{
@@ -130,8 +135,8 @@ h1{
   height: 35px;
   justify-content: center;
   align-items: center;
-  background-color: #313131;
-  color: white;
+  background-color: var(--color-fondo-logo-camara-y-campana-header);
+  color: var(--color-logo-camara-y-campana-header);
   outline: none;
   border: none;
   cursor: pointer;
@@ -146,10 +151,20 @@ h1{
 }
 
 .profile-container a:hover{
-  background-color: #484848;
+  background-color: var(--color-hover-logo-camara-y-campana-header);
 }
 
+
 /* sidebar */
+
+
+
+
+
+
+
+
+/* Content */
 .sidebar{
   grid-area: sidebar;
   background-color: #121212;
@@ -184,6 +199,8 @@ hr{
   border: solid 1px rgba(255, 255, 255, 0.1);
   margin: 12px 0;
 }
+
+/* content */
 .content{
   grid-area: content;
 

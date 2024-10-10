@@ -1,0 +1,24 @@
+:root{
+    --color-logos-header:white;
+    --color-contenedor-header: #202020;
+
+    --color-texto-youtube: white;
+
+    --espacio-entre-elementos: 5px;
+
+    --color-barra-de-busqueda-header:#121212;
+    --color-texto-barra-de-busqueda-header:#f2f2f2;
+    --borde-barra-de-busqueda-header:1px solid rgba(255, 255, 255, 0.01);
+    --borde-radius-barra-de-busqueda-header:10px 0px 0px 10px;
+
+    --color-fondo-logo-busqueda-header:#313131;
+    --color-del-logo-busqueda-header:white;
+    --borde-radius-del-logo-busqueda-header:0px 10px 10px 0px;
+
+    --color-logo-camara-y-campana-header:white;
+    --color-fondo-logo-camara-y-campana-header:#313131;
+    --color-hover-logo-camara-y-campana-header: #484848;
+
+
+
+}
