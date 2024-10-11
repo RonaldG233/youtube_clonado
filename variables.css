@@ -1,6 +1,10 @@
 :root{
-    --color-logos-header:white;
+
+    /* HEADER */
+
+    --color-logo-header:white;
     --color-contenedor-header: #202020;
+    
 
     --color-texto-youtube: white;
 
@@ -19,6 +23,42 @@
     --color-fondo-logo-camara-y-campana-header:#313131;
     --color-hover-logo-camara-y-campana-header: #484848;
 
+    /* SIDEBAR */
+
+    --color-contenedor-sidebar:#121212;
+    --color-textos-de-sidebar:white;
+    --color-hover-sidebar-input:#484848;
+    --borde-radius-hover-sidebar-input:5px;
+    --color-elemento-h4:#aaa;
+
+    --color-barra-scroll-sidebar:#717171;
+
+    /* CONTENT */
+
+        /* CHIPS */
+        --color-contenedor-chips:#181818;
+
+        --borde-superior-contenedor-chips:1px solid rgba(255, 255, 255, 0.01);
+        --borde-inferior-contenedor-chips:1px solid rgba(255, 255, 255, 0.01);
+
+        --color-barra-scroll-chips:#717171;
+
+        --color-bloque-de-texto-chips:#373737;
+        --color-de-texto-chips:#fff;
+        --borde-de-texto-chips:16px;
+
+        --color-hover-bloque-de-texto-chips:#d4d4d4;
+        --transicion-hover-bloque-de-texto-chips:0.3s;
+
+        /* VIDEO CONTAINER */
+
+        --color-contenedor-videos-content:#181818;
+
+        --color-hover-video-content:#373737;
+
+        --color-texto-detalle-video-content:#fff;
+        --color-texto-nombre-canal-video-content:#aaa;
+        --color-texto-views-upload-video-content:#aaa;
 
 
 }
